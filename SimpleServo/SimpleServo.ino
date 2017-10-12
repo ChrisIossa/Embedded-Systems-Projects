@@ -15,7 +15,7 @@ void setup()
 void loop()
 {  
 
-  
+/*  
   myservo.write(15);//goes to 15 degrees 
   delay(1000);//wait for a second
   myservo.write(30);//goes to 30 degrees 
@@ -40,9 +40,9 @@ void loop()
   delay(1000);//wait for a second
   myservo.write(0);//back to 0 degrees 
   delay(1000);//wait for a second
+  */
   
-  
-  /*
+ // /*
   for(int i = 0; i < 180; i += 1 )
   {
     myservo.write( i );
@@ -53,7 +53,7 @@ void loop()
     myservo.write( i );
     delay( 10 );
   }
-  */
+  //*/
 }
 
 
