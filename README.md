@@ -1,2 +1,2 @@
 # Embedded-Systems-Projects
-A repo to store files associated with Fall 2017 CS298 Classwork and Homework
+A repo to store Fall 2017 CS298 Classwork and Homework projects
