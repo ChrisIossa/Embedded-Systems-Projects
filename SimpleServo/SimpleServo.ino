@@ -3,7 +3,7 @@
 #include <Servo.h>
 /************************************************/
 Servo myservo;//create servo object to control a servo
-#define ServoPin 11
+#define ServoPin 8
 /************************************************/
 void setup()
 {
