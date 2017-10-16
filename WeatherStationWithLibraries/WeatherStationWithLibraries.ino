@@ -1,13 +1,15 @@
 #include <LCD.h>
 #include <Temp.h>
-void setup() {
-  // put your setup code here, to run once:
-  
-  
- }
 
 LCD LCDScr(8,7,9,10,11,12);
 Temp DH11(2);
+void setup() {
+  // put your setup code here, to run once:
+  LCDScr.startScreen();
+  
+ }
+
+
 void loop() {
   // put your main code here, to run repeatedly:
   float humid =0;
@@ -27,6 +29,6 @@ void loop() {
   LCDScr.writeStr("Humid: ");
   LCDScr.sendByte(0x80|0x47);
   LCDScr.writeStr(String((int)humid).c_str());
-  LCRScr.sendByte(0x80|0x4A);
+  LCDScr.sendByte(0x80|0x4A);
   LCDScr.writeStr("%");
 }
