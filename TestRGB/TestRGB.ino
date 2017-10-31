@@ -69,9 +69,9 @@ void loop()
       gVal--;
     }
   rgb.setColor( 0, rVal, gVal , bVal );
-  rgb.setColor( 1, gVal, rVal , bVal );
+  rgb.setColor( 1, gVal, bVal , rVal );
   rgb.show();
-  delay(10);
+  delay(5);
   }
 
   
