@@ -1,3 +1,6 @@
+//added pitches
+#include <pitches.h>
+
 // Example of PWM wave forming
 #include <avr/interrupt.h>
 
@@ -22,7 +25,7 @@ void setup()
 {
 
 
-  int waveType = SINE;
+  //int waveType = SINE;
   //int waveType = RAMP;
   //int waveType = TRIANGLE;
   //int waveType = SQUARE;
