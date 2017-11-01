@@ -29,7 +29,7 @@ void loop() {
   digitalWrite(fastLED,HIGH);
   digitalWrite(slowLED,HIGH);
   
-  delay(24);
+  delay(240);
   digitalWrite(fastLED,LOW);
   
   
