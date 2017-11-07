@@ -40,13 +40,13 @@ void loop()
   delay(1000);//wait for a second
   myservo.write(0);//back to 0 degrees 
   delay(1000);//wait for a second
-  */
+  // */
   
- // /*
+ 
   for(int i = 0; i < 180; i += 1 )
   {
     myservo.write( i );
-   // delay( 10 );
+   delay( 10 );
   }
   for( int i = 180; i > 0; i -= 1 )
   {
