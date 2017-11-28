@@ -1,7 +1,7 @@
 #include <RGB.h>
 
-#define RGBPin 2
-#define numPixels 2
+#define RGBPin 3
+#define numPixels 1
 
 RGB rgb( RGBPin, numPixels );
 void setup() 
@@ -12,7 +12,7 @@ void setup()
   rgb.setColor( 0, 0, 255, 0 );
 
   // Uncomnent this line when there are two devices
-  rgb.setColor( 1, 255, 0, 60 );
+  //rgb.setColor( 1, 255, 0, 60 );
   
   rgb.show();
 }
@@ -69,7 +69,7 @@ void loop()
       gVal--;
     }
   rgb.setColor( 0, rVal, gVal , bVal );
-  rgb.setColor( 1, gVal, bVal , rVal );
+  //rgb.setColor( 1, gVal, bVal , rVal );
   rgb.show();
   delay(5);
   }
